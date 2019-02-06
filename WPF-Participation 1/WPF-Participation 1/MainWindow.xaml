@@ -6,11 +6,14 @@
         xmlns:local="clr-namespace:WPF_Participation_1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#FFD4BCB5">
-        <ListBox HorizontalAlignment="Left" Height="166" VerticalAlignment="Top" Width="202" Margin="556,201,0,0" SelectionChanged="ListBox_SelectionChanged"/>
-        <Button Content="&#xD;&#xA;Select" HorizontalAlignment="Left" VerticalAlignment="Top" Width="145" RenderTransformOrigin="2.197,2.997" Height="85" Margin="298,296,0,0" FontSize="20" Background="#FFDAD9D9" FontWeight="Bold"/>
-        <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,63,0,0" Height="38" Width="190" FontSize="16" Background="#FFFFF9F9"/>
-        <Label Content="Address" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,135,0,0" Height="36" Width="208" FontSize="16" Background="#FFFFF9F9"/>
-        <Label Content="Zipcode" HorizontalAlignment="Left" VerticalAlignment="Top" Height="36" Width="234" Margin="55,183,0,0" FontSize="16" Background="#FFF9F5F5"/>
+    <Grid Background="#FFDA5F3B">
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="304" VerticalAlignment="Top" Width="286" Margin="472,63,0,0" SelectionChanged="ListBox_SelectionChanged"/>
+        <Button Content="&#xD;&#xA;Select" HorizontalAlignment="Left" VerticalAlignment="Top" Width="145" RenderTransformOrigin="2.197,2.997" Height="85" Margin="118,303,0,0" FontSize="20" Background="#FFDAD9D9" FontWeight="Bold" Click="Button_Click"/>
+        <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,63,0,0" Height="38" Width="208" FontSize="16" Background="#FFFFF9F9"/>
+        <Label Content="Address" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,126,0,0" Height="36" Width="208" FontSize="16" Background="#FFFFF9F9"/>
+        <Label Content="Zipcode" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="208" Margin="55,183,0,0" FontSize="16" Background="#FFF9F5F5"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="293,71,0,0" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="293,139,0,0"/>
+        <TextBox x:Name="txtzipcode" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="293,183,0,0"/>
     </Grid>
 </Window>

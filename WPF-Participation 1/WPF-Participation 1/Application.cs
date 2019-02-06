@@ -6,13 +6,29 @@ using System.Threading.Tasks;
 
 namespace WPF_Participation_1
 {
-    class Application
+    class Form
     {
         public string Name { get; set; }
         public string Address { get; set; }
         public int ZipCode { get; set; }
 
+
+        public Form()
+        {
+            Name = "";
+            Address = "";
+            ZipCode = 0;
+        }
+
+        public Form (string name, string address, int zipCode)
+        {
+            Name = name;
+            Address = address;
+            ZipCode = zipCode;
+        }
+        
+
+
     }
-     public Application
    
 }

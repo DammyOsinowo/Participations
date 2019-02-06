@@ -29,5 +29,29 @@ namespace WPF_Participation_1
         {
 
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+           Form a = new Form();
+
+            // txtName is the name of the text box
+            a.Name = txtName.Text;
+            a.Address = txtAddress.Text;
+            a.ZipCode = Convert.ToInt16(txtzipcode.Text);
+
+          //  listBox1.Items.add(a);
+           
+
+
+
+
+
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
