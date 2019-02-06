@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPF_Participation_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Participation_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFD4BCB5">
+        <ListBox HorizontalAlignment="Left" Height="166" VerticalAlignment="Top" Width="202" Margin="556,201,0,0" SelectionChanged="ListBox_SelectionChanged"/>
+        <Button Content="&#xD;&#xA;Select" HorizontalAlignment="Left" VerticalAlignment="Top" Width="145" RenderTransformOrigin="2.197,2.997" Height="85" Margin="298,296,0,0" FontSize="20" Background="#FFDAD9D9" FontWeight="Bold"/>
+        <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,63,0,0" Height="38" Width="190" FontSize="16" Background="#FFFFF9F9"/>
+        <Label Content="Address" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,135,0,0" Height="36" Width="208" FontSize="16" Background="#FFFFF9F9"/>
+        <Label Content="Zipcode" HorizontalAlignment="Left" VerticalAlignment="Top" Height="36" Width="234" Margin="55,183,0,0" FontSize="16" Background="#FFF9F5F5"/>
+    </Grid>
+</Window>
